@@ -32,11 +32,11 @@ function speak(){
     setTimeout(function(){
         take_snapshot();
         save();
-    }, 5000);
+    }, 10000);
 }
 Webcam.set({
-    width:360,
-    height:250,
+    width:450,
+    height:500,
     image_format:'png',
     png_quality: 90
 });
