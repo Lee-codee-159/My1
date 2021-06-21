@@ -35,8 +35,8 @@ function speak(){
     }, 10000);
 }
 Webcam.set({
-    width:450,
-    height:500,
+    width:600,
+    height:600,
     image_format:'png',
     png_quality: 90
 });
